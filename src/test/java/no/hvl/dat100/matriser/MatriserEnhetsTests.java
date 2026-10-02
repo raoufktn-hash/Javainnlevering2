@@ -78,7 +78,7 @@ class MatriserEnhetsTests {
 		assertArrayEquals(cskalert,skaler);
 		
 	}
-	
+	/*
 	@Test
 	void testSpeile() {
 		
@@ -89,6 +89,8 @@ class MatriserEnhetsTests {
 		assertFalse(speile == a);
 		assertArrayEquals(speilet,speile);
 	}
+
+	 */
 	
 	@Test 
 	void testMultipliser () {

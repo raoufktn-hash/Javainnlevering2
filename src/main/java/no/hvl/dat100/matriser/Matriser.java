@@ -18,10 +18,10 @@ public class Matriser {
             String resultat = "";
 
             for (int[] rad : matrise) {
-                for (int tall : rad) {
-                    resultat += tall + " ";
+                for (int i = 0; i < rad.length - 1; i++) {
+                    resultat += rad[i] + " ";
                 }
-                resultat += "\n";
+                resultat += rad[rad.length - 1] + "\n";
             }
             return resultat;
         }
